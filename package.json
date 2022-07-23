@@ -1,5 +1,5 @@
 {
-  "name": "lotivis-color",
+  "name": "lotivis-colors",
   "version": "1.0.0",
   "description": "GeoJson for lotivis.js",
   "author": "Lukas Danckwerth",
@@ -11,10 +11,10 @@
   ],
   "module": "src/index.js",
   "main": "src/index.js",
-  "jsdelivr": "dist/lotivis-color.min.js",
-  "unpkg": "dist/lotivis-color.min.js",
+  "jsdelivr": "dist/lotivis-colors.min.js",
+  "unpkg": "dist/lotivis-colors.min.js",
   "exports": {
-    "umd": "./dist/lotivis-color.min.js",
+    "umd": "./dist/lotivis-colors.min.js",
     "default": "./src/index.js"
   },
   "scripts": {
@@ -30,7 +30,9 @@
     "rollup-plugin-terser": "7"
   },
   "dependencies": {
-    "lotivis-chart": "1",
-    "d3": "7"
+    "d3-array": "^3.2.0",
+    "d3-color": "^3.1.0",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.0.0"
   }
 }
