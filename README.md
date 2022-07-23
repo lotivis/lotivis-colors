@@ -65,15 +65,17 @@ Returns the color for the specified `label`.
 
 Returns a generated color scale from the specified colors.
 
-#### lotivis.**[colorScale1](./src/schemes.js)**
+#### lotivis.**[colorScale1](./src/scales.js)**
 
 Colro scale with "Yellow", "Orange", "Red" and "Purple".
 
-#### lotivis.**[colorScale2](./src/schemes.js)**
+#### lotivis.**[colorScale2](./src/scales.js)**
 
 Color scale with "White", colorSchemeDefault[2] and colorSchemeDefault[0].
 
 ### Color Schemes
+
+A color scheme is an array of HTML colors.
 
 #### lotivis.**[colorSchemeLotivis10](./src/schemes.js)**
 
