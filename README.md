@@ -24,7 +24,7 @@ let dataController = lotivis.dataController();
 
 ## API Reference
 
-### Color Generator
+### Colors Generator
 
 ```js
 let data = [ /* */ ];
@@ -49,7 +49,7 @@ Gets or sets the generators data.
 
 #### colorsGenerator.**[colorScheme](./src/generator.js)**(_)
 
-Gets or sets the generators color scheme.
+Gets or sets the generators [color scheme](#color-schemes).
 
 #### colorsGenerator.**[group](./src/generator.js)**(group)
 
@@ -60,6 +60,18 @@ Returns the color for the specified `group`.
 Returns the color for the specified `label`.
 
 ### Color Scales
+
+#### lotivis.**[colorScale](./src/scales.js)**(...colors)
+
+Returns a generated color scale from the specified colors.
+
+#### lotivis.**[colorScale1](./src/schemes.js)**(_)
+
+Colro scale with "Yellow", "Orange", "Red" and "Purple".
+
+#### lotivis.**[colorScale2](./src/schemes.js)**(_)
+
+Color scale with "White", colorSchemeDefault[2] and colorSchemeDefault[0].
 
 ### Color Schemes
 
