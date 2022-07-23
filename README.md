@@ -5,10 +5,7 @@ Colors for lotivis.js.
 ```js
 let data = [ /* */ ];
 let colorsGenerator = lotivis.colorsGenerator(data);
-
 let labelColor = colorsGenerator.label("label-1");
-
-let groupColor = colorsGenerator.group("group-1");
 ```
 
 ## Installing
@@ -27,7 +24,24 @@ let dataController = lotivis.dataController();
 
 ## API Reference
 
-### Generator
+### Color Generator
+
+```js
+let data = [ /* */ ];
+let colorsGenerator = lotivis.colorsGenerator(data);
+
+// receive color for a specific label
+let labelColor = colorsGenerator.label("label-1");
+
+// receive color for a specific group
+let groupColor = colorsGenerator.group("group-1");
+
+// change data of generator
+colorsGenerator.data(otherData);
+
+// change color scheme of generator
+colorsGenerator.colorScheme(lotivis.colorSchemeTableau10);
+```
 
 #### colorsGenerator.**[data](./src/generator.js)**(_)
 
@@ -45,9 +59,9 @@ Returns the color for the specified `group`.
 
 Returns the color for the specified `label`.
 
-### Scales
+### Color Scales
 
-### Schemes
+### Color Schemes
 
 #### lotivis.**[colorSchemeLotivis10](./src/schemes.js)**(_)
 
