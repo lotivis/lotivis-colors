@@ -1,4 +1,4 @@
-# lotivis-colors [![Node.js CI](https://github.com/lukasdanckwerth/lotivis-colors/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/lukasdanckwerth/lotivis-colors/actions/workflows/node.js.yml)
+# lotivis-colors [![Node.js CI](https://github.com/lotivis/lotivis-colors/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/lotivis/lotivis-colors/actions/workflows/node.js.yml)
 
 Colors for lotivis.js.
 
@@ -10,7 +10,7 @@ let labelColor = colorsGenerator.label("label-1");
 
 ## Installing
 
-If you use npm, `npm install lotivis-colors`. You can also download the [latest realease on GitHub](https://github.com/lukasdanckwerth/lotivis-colors/releases/latest). For using in browsers, you can load the UMD bundle from an npm-based CDN such as jsDelivr.
+If you use npm, `npm install lotivis-colors`. You can also download the [latest realease on GitHub](https://github.com/lotivis/lotivis-colors/releases/latest). For using in browsers, you can load the UMD bundle from an npm-based CDN such as jsDelivr.
 
 ```html
 <script src="https://cdn.jsdelivr.net/..."></script>
