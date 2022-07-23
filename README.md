@@ -106,7 +106,7 @@ Copy of `colorSchemeCategory10`.
 
 #### lotivis.**[tintColor](./src/schemes.js)**
 
-Holds the __first__ color of th default color scheme (`colorSchemeDefault`).
+Holds the __first__ color of th default color scheme ([`colorSchemeDefault`](#lotiviscolorschemedefault)).
 
 ## Development`
 
