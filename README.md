@@ -65,17 +65,17 @@ Returns the color for the specified `label`.
 
 Returns a generated color scale from the specified colors.
 
-#### lotivis.**[colorScale1](./src/schemes.js)**(_)
+#### lotivis.**[colorScale1](./src/schemes.js)**
 
 Colro scale with "Yellow", "Orange", "Red" and "Purple".
 
-#### lotivis.**[colorScale2](./src/schemes.js)**(_)
+#### lotivis.**[colorScale2](./src/schemes.js)**
 
 Color scale with "White", colorSchemeDefault[2] and colorSchemeDefault[0].
 
 ### Color Schemes
 
-#### lotivis.**[colorSchemeLotivis10](./src/schemes.js)**(_)
+#### lotivis.**[colorSchemeLotivis10](./src/schemes.js)**
 
 ```html
 [
@@ -92,19 +92,19 @@ Color scale with "White", colorSchemeDefault[2] and colorSchemeDefault[0].
 ]
 ```
 
-#### lotivis.**[colorSchemeCategory10](./src/schemes.js)**(_)
+#### lotivis.**[colorSchemeCategory10](./src/schemes.js)**
 
 Copy of `d3.schemeCategory10`.
 
-#### lotivis.**[colorSchemeTableau10](./src/schemes.js)**(_)
+#### lotivis.**[colorSchemeTableau10](./src/schemes.js)**
 
 Copy of `d3.colorSchemeTableau10`.
 
-#### lotivis.**[colorSchemeDefault](./src/schemes.js)**(_)
+#### lotivis.**[colorSchemeDefault](./src/schemes.js)**
 
 Copy of `colorSchemeCategory10`.
 
-#### lotivis.**[tintColor](./src/schemes.js)**(_)
+#### lotivis.**[tintColor](./src/schemes.js)**
 
 Holds the __first__ color of th default color scheme (`colorSchemeDefault`).
 
