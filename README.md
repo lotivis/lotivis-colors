@@ -2,6 +2,15 @@
 
 Colors for lotivis.js.
 
+```js
+let data = [ /* */ ];
+let colorsGenerator = lotivis.colorsGenerator(data);
+
+let labelColor = colorsGenerator.label("label-1");
+
+let groupColor = colorsGenerator.group("group-1");
+```
+
 ## Installing
 
 If you use npm, `npm install lotivis-colors`. You can also download the [latest realease on GitHub](https://github.com/lukasdanckwerth/lotivis-colors/releases/latest). For using in browsers, you can load the UMD bundle from an npm-based CDN such as jsDelivr.
